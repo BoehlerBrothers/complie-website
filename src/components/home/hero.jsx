@@ -1,5 +1,6 @@
 import MarkdownIt from "markdown-it";
 const md = new MarkdownIt({ html: true });
+import shield from '../../../public/images/shield-tick.svg'
 
 export default function HomeHero({ block, dataBinding }) {
   return (
@@ -9,6 +10,10 @@ export default function HomeHero({ block, dataBinding }) {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="hero-two-content">
+              <div className="flex">
+                <img src={shield} className="mr-2" />
+                <span>{block.subtitle}</span>
+              </div>
               <h1 className="mb-4">{block.title}</h1>
               <div
                 className="mb-7 w-xxl-80"

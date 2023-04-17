@@ -133,9 +133,9 @@ export default function Navigation({ pageUrl }) {
                     <li key={i} className="nav-item">
                       <a
                           href={`${link.link}`}
-                          className={`py-2 px-4 nav-link text-white bg-green-500 rounded-full ${
+                          className={`py-2 px-4 font-bold rounded-full ${
                               pageUrl.pathname === link.link ? "active" : ""
-                          }`}
+                          } ${link.outline ? 'border border-primary-500 text-black hover:bg-primary-500 hover:text-white' : 'bg-primary-500 text-white hover:bg-primary-800'}`}
                       >
                         {link.text}
                       </a>

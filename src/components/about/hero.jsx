@@ -21,6 +21,9 @@ export default function AboutHero({ block, dataBinding }) {
         <div className="row">
           <div className="col-xl-5 col-lg-10 mx-auto">
             <div className="about-hero-two-content position-relative">
+              <div>
+                <span>{block.subtitle}</span>
+              </div>
               <h2>{block.title}</h2>
               <div
                 dangerouslySetInnerHTML={{
