@@ -29,11 +29,13 @@
   "btnItems": [
     {
       "link": "/login/",
-      "text": "Login"
+      "text": "Login",
+      "outline": true
     },
     {
       "link": "/signup/",
-      "text": "Sign Up"
+      "text": "Sign Up",
+      "outline": true
     }
   ]
 }
