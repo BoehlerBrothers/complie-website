@@ -128,14 +128,20 @@ export default function Navigation({ pageUrl }) {
               </ul>
             </div>
             <div className="d-none d-lg-block">
-              <div className="nav-item">
-                <a
-                  href={`${navigation.btn.link}`}
-                  className="btn btn-sm btn-links"
-                >
-                  {navigation.btn.text}
-                </a>
-              </div>
+              <ul className="navbar-nav mx-auto mb-20 mb-lg-0 space-x-2">
+                {navigation.btnItems.map((link, i) => (
+                    <li key={i} className="nav-item">
+                      <a
+                          href={`${link.link}`}
+                          className={`py-2 px-4 nav-link text-white bg-green-500 rounded-full ${
+                              pageUrl.pathname === link.link ? "active" : ""
+                          }`}
+                      >
+                        {link.text}
+                      </a>
+                    </li>
+                ))}
+              </ul>
             </div>
           </div>
         </nav>

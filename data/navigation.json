@@ -26,8 +26,14 @@
       "text": "Contact"
     }
   ],
-  "btn": {
-    "link": "/signup/",
-    "text": "Get Started"
-  }
+  "btnItems": [
+    {
+      "link": "/login/",
+      "text": "Login"
+    },
+    {
+      "link": "/signup/",
+      "text": "Sign Up"
+    }
+  ]
 }
