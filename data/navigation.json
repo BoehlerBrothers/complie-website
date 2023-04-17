@@ -35,7 +35,7 @@
     {
       "link": "/signup/",
       "text": "Sign Up",
-      "outline": true
+      "outline": false
     }
   ]
 }
