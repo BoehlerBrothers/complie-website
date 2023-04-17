@@ -11,14 +11,14 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    title: Beautiful email campaigns
+    title: "Die einfachste Lösung\Lfür skalierbare KYC und ID-Verifizierungen"
     description: >-
-      With Sendit, you can quickly create beautiful rich emails that capture a
-      reader's attention, engage them, and convert them into customers.
-    image: /images/hero/hero-image-2.png
-    image_alt: Reports dashboard
+      Complie bietet Ihnen eine skalierbare, modulare und anpassbare Lösung, die
+      genau auf Ihre Bedürfnisse zugeschnitten ist.
+    image: /uploads/face.png
+    image_alt: face detection
     button:
-      text: Try This Free
+      text: Platform entdecken
       link: /signup/
   - _bookshop_name: global/counter
     title: Scale your
@@ -49,7 +49,7 @@ content_blocks:
     image_alt: Thumbnail for video
     video_url: https://vimeo.com/45830194
   - _bookshop_name: global/header
-    title: "Sendit "
+    title: 'Sendit '
     title_suffix: Features
     remove_top_padding: true
     description: >-
