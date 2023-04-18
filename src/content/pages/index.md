@@ -11,8 +11,8 @@ seo:
   no_index: false
 content_blocks:
   - _bookshop_name: home/hero
-    subtitle: "Complie ist zertifiziert und akkreditiert für höchste Sicherheitsstandards"
-    title: "Die einfachste Lösung\Lfür skalierbare KYC und ID-Verifizierungen"
+    subtitle: Test ist zertifiziert und akkreditiert für höchste Sicherheitsstandards
+    title: "Die eeeeinfachste Lösung\Lfür skalierbare KYC und ID-Verifizierungen"
     description: >-
       Complie bietet Ihnen eine skalierbare, modulare und anpassbare Lösung, die
       genau auf Ihre Bedürfnisse zugeschnitten ist.
@@ -21,6 +21,9 @@ content_blocks:
     button:
       text: Platform entdecken
       link: /signup/
+  - _bookshop_name: about/team
+    title: Our leadership & Team Members
+    team_members: []
   - _bookshop_name: global/counter
     title: Scale your
     title_suffix: Business
